@@ -11,8 +11,8 @@ jobs:
   send_email:
     runs-on: ubuntu-latest
     steps:
-    - name: Send Email Notification
-      uses: send-email-action@v2
+    - name: Send email
+      uses: dawidd6/action-send-mail@v3.12.0
       with:
         server_address: smtp.gmail.com
         server_port: 587
