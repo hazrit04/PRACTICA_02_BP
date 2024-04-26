@@ -21,3 +21,4 @@ jobs:
         subject: 'Changes pushed to branch ${{ github.ref }}'
         body: 'Changes have been pushed to branch ${{ github.ref }}'
         to: 'tirzahpeniche@gmail.com'
+        from: Tirzah y Ferdi
