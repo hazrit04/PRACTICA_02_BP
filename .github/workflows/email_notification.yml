@@ -14,11 +14,11 @@ jobs:
     - name: Send email
       uses: dawidd6/action-send-mail@v3.12.0
       with:
-        server_address: smtp.gmail.com
+        server_address: smtp.hotmail.com
         server_port: 534
-        username: tirzahpeniche@gmail.com
-        password: KimSeokJin
+        username: tirzah.peniche@iteso.com
+        password: KimSeokJinnie120304249203.
         subject: 'Changes pushed to branch ${{ github.ref }}'
         body: 'Changes have been pushed to branch ${{ github.ref }}'
-        to: 'tirzah03pb@gmail.com'
+        to: 'tirzahpeniche@gmail.com'
         from: Tirzah y Ferdi
